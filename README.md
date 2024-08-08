@@ -8,4 +8,4 @@ posible.
 * CSS
 
 ### Captura del proyecto 
-![captura](/img/CV_Preview.jpg)
+![captura](/CV_Preview.jpg)
