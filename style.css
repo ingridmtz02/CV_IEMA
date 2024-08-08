@@ -1,0 +1,108 @@
+/* selector universal */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* https://cssgradient.io/ */
+body{
+    background-color: #f7f7f7;
+    /* background-image: linear-gradient(62deg, #edb7eb 0%, #ede3f5 50%, #bef6fa 100%); */
+    font-family: "Rubik", sans-serif;
+    /* font-weight ancho */
+    line-height: 1.5;
+    color: #272d30;
+    text-align: justify;
+}
+/*  selector de etiqueta */
+p{
+    color: #002333;
+    font-weight: 400;
+
+}
+/*selector de .clase, se pueden repetir las clases*/
+#nombre{
+    color:#372eb1;
+    font-family:sans-serif;
+}
+.container{
+    background-color: #002333;
+    /* ancho, alto, */
+    width:200px ;
+    height: 100px;
+    outline: 2px solid;
+    margin: 60px auto;
+/* Para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border: 3px solid #9ca3e4;
+    margin: 15px;
+    height: 5cm;
+    width: 4.4cm;
+    border-radius: 30px;
+    }
+.menu{
+    background-color: #817ae2;
+    margin: 10px;
+}
+/* etiqueta padre UL */
+.menu ul{
+/* display flex para el backg */
+    display: flex;
+    justify-content: center;
+     /* para eliminar los puntitos */
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.menu ul li{
+    float: center;
+}
+.menu ul li a {
+    /* display block para alinear horizontal */
+    display: block;
+    color: #0c0c0c;
+    text-align: center;
+    /* separacion entre elem */
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* backgr img */
+#cuadrito{
+    /* background-image: url(); */
+    background-color: #c9cdf34d;
+    /* espacio marg orillas */
+    padding: 10px; 
+    /* cubre todoo o contain */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    line-height: 1.1;
+    text-align: justify;
+}
+#contacto{
+    background-color:#c8dff565;
+    border-radius: 20px;
+}
+legend{
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4139a7;
+}
+#titleexperiencia {
+    color: #372eb1;
+    text-align: center;
+    background-color: #9d97fa48;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titleprojects {
+    color: #372eb1;
+    text-align: center;
+    background-color: #9d97fa48;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

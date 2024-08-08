@@ -1,0 +1,147 @@
+<!-- el navegador siempre busca el index del sitio equivalente a la pagina principal -->
+<!-- html:5 -- estructura basica -->
+<!DOCTYPE html>
+<!-- idioma -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- caracteres que permite -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- nuestro sitio ocupa toda la pantalla -->
+    <link rel="shortcut icon" href="/imagenes/curriculum-vitae.png" type="image/x-icon">
+    <!-- PARA LA FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+   
+        <!-- Para linkear con style.css, rel es de relation -->
+    <link rel="stylesheet" href="style.css">
+    <!-- al momento de ver mi sitio la pestana se llama así, en la ventanita-->
+    <title> CV Ingrid Martínez </title>
+</head>
+
+
+<body><!-- elem visibles -->
+
+<!-- MENU -->
+    <header>
+        <nav class="menu">
+            <ul>
+
+                <li> <a href="">Inicio</a></li>
+                <li> <a href="#titleprojects">Projects</a></li>
+                <li> <a href="#contacto">Contact Me!</a></li>
+                <li> <a href="#titleexperiencia">Experience</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- img local /directorio/ -->
+    <img src="/imagenes/1647806899229-01 (2).jpeg" width="150" align="left" alt="foto Ingrid">
+    <!--header1, titulo principal/ HAY HASTA h6-->
+    <br>
+    <h1 id="nombre"> Ingrid Martínez </h1>
+    <h2> Biomedical engineer student - Universidad Autónoma de Nuevo León </h2>
+    
+    <hr> <!-- para línea -->
+    <br> 
+    <p class="parrafo1"> Passionate biomedical engineer with a strong background in project management and currently
+        developing experience in AI/ML, getting skills in Python, TensorFlow, PyTorch, and various ML libraries.
+        Currently learning about web developer. Excellent problem-solving, research, and collaboration abilities, with
+        experience in leadership.</p>
+  
+<!-- CONTACTO -->
+    <fieldset id="contacto"> <!-- Para el cuadrito -->
+        <legend> CONTACT ME! </legend>
+        <ul>
+            <li> <a href="iemartineza004@gmail.com" target="_blank">iemartineza004@gmail.com</a></li>
+            <li> <a href="https://www.linkedin.com/in/ingrid-edith-mart%C3%ADnez-andrade-624023254/"
+                    target="_blank">LinkedIn</a> </li>
+            <li> <a href="https://github.com/ingridmtz02" target="_blank">Github</a></li>
+        </ul>
+    </fieldset>
+    <br><br>
+
+<!-- EXPERIENCIA --> 
+    <h3 id="titleexperiencia"> Experience</h3>
+    <fieldset id="cuadrito">
+    <ul>
+        <h4> INTERN: AI , MEDICAL SOFTWARE, IMMERSIVE TECHNOLOGY AND APPS</h4>
+        <h5>Secretaria de Innovación y Desarrollo Tecnológico - FACMED, UANL</h5>
+            <li>Implemented and evaluated ML models using Python libraries and DL Frameworks</li>
+            <li>Current learning and participation in Kaggle challenges</li>
+            <li>Collaborated with cross-functional teams to deliver AI solutions</li>
+            <li>VR environment project for rehabilitation post-stroke</li>
+    </ul>
+    </fieldset>
+<br><br>
+
+
+    <fieldset id="cuadrito">
+        <legend> ACADEMIC EXPERIENCE</legend>
+    <ul>
+        <h4> SCHOLAR: 360 INNOVATION AND DEVELOPMENT PROGRAM </h4>
+        <h5>Secretaria de Innovación y Desarrollo Tecnológico - FACMED, UANL</h5>
+            <li>Project management courses and workshops</li>
+            <li>Technological maturation courses</li>
+            <li>Management related to copyright</li>
+            <li>Development of technological searches and state of art</li>
+            <hr> 
+    </ul>
+    </fieldset>
+
+<!-- PROJECTS -->
+<br><br>
+<h3 id="titleprojects"> Projects</h3>
+<fieldset id="cuadrito">
+    <legend>PROJECTS</legend>
+<ul>
+    
+    <h4> DEVELOPMENT OF A PREDICTIVE MODEL USING ML FOR HEART DISEASE </h4>
+    <h5>Secretaria de Innovación y Desarrollo Tecnológico - FACMED, UANL</h5>
+        <li>Description: </li>
+        <li>By using: Python, TensorFlow, OpenCV, Scikit-learn, randomforest...</li>
+    <hr>
+    <h4> VR ENVIRONMENT FOR REHABILITATION </h4>
+    <h5>Secretaria de Innovación y Desarrollo Tecnológico - FACMED, UANL</h5>
+        <li> Description: </li>
+        <li> By using: Oculus, Unity and LeapMotion</li>
+    <hr>
+    <h4> CREATION OF A WEB PAGE FOR MY CV </h4>
+    <h5>Own project</h5>
+        <li> Description: </li>
+        <li> By using: HTML and CSS</li>
+</ul>
+</fieldset>
+    <div class=".">
+        <p class="parrafo1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil magni deserunt cum. Enim facere velit nulla laudantium laboriosam, odit ipsa aspernatur non beatae rerum earum modi itaque, atque blanditiis?</p>
+     </div>
+</body>
+
+</html>
+
+ <!-- FORMULARIO, ingresar texto, radio or,  -->
+    <!-- <form action="">
+        <label for="">Nombre</label>
+        <input type="text">
+        <br>
+        <label for="">Correo</label>
+        <input type="text">
+        <br>
+        <label for="">Número celular</label>
+        <input type="text"> -->
+
+
+<!-- lista desordenada (ul) li  / ordenada, con numeritos (ol)-->
+<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFt1Z42Kz-KDaUQJzcmU__ZyBddHxQClCewQ&s" alt="Neuronas espejo"> -->
+<!-- COLOR BACKG
+      <h1 style="background-color:DodgerBlue;">Hello World</h1> -->
+<!-- TEXT color
+<h1 style="color:Tomato;">Hello World</h1>
+    BORDER
+    <h1 style="border:2px solid Tomato;">Hello World</h1> -->
+
+<!-- w3schools -->
